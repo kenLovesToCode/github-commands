@@ -2,7 +2,7 @@
 My personal guide in github commands
 
 ###### Pull and push existing repo
-> git remote add origin https://github.com/...
+> git remote add origin https://github.com/kenLovesToCode/github-commands
 
 > git pull origin main
 
