@@ -17,3 +17,10 @@ My personal guide in github commands
 ###### Move branch to branch
 > git branch -m master main
 
+##### git stash for initial work
+> git stack save 'any name'
+> git stash list
+> git stash apply stash@{0} //apply
+> git stash pop // get and delete the first stash
+> git stash drop stash@{0} // drop
+> git stash clear // drop all
