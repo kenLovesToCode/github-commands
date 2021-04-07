@@ -27,4 +27,5 @@ My personal guide in github commands
 
 ###### remove cached and add again
 > git rm -rf --cached folderName
+
 > git add folderName/
