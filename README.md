@@ -24,3 +24,7 @@ My personal guide in github commands
 > git stash pop // get and delete the first stash
 > git stash drop stash@{0} // drop
 > git stash clear // drop all
+
+###### remove cached and add again
+git rm -rf --cached folderName
+git add folderName/
