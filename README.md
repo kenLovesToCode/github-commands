@@ -26,5 +26,5 @@ My personal guide in github commands
 > git stash clear // drop all
 
 ###### remove cached and add again
-git rm -rf --cached folderName
-git add folderName/
+> git rm -rf --cached folderName
+> git add folderName/
