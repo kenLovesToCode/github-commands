@@ -29,3 +29,8 @@ My personal guide in github commands
 > git rm -rf --cached folderName
 
 > git add folderName/
+
+###### setup git for the first time
+> git config --global user.name 'name'
+
+> git config --global user.email 'email'
