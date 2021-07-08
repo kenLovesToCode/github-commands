@@ -34,3 +34,8 @@ My personal guide in github commands
 > git config --global user.name 'name'
 
 > git config --global user.email 'email'
+
+####go back to specific commit hash
+> git log #to list all the available commit hashes
+
+> git checkout <the commit hash only>
