@@ -6,11 +6,13 @@ My personal guide in github commands
 
 > git pull origin main
 
-> git pull --allow-unrelated-histories origin main - for nonrelated histories
-
 > git add .
 
 > git commit -m 'commit name'
+
+> git branch -M master main
+
+> git pull --allow-unrelated-histories origin main - for nonrelated histories
 
 > git push -u origin main
 
