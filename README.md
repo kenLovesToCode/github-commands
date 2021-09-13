@@ -71,3 +71,5 @@ GIT RESET
   
 GIT REFLOG
 ###### show all git commits including the deleted `git reflog`
+
+###### show remote info `git remote show remote_name`
