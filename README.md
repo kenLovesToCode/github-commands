@@ -42,13 +42,13 @@ My personal guide in github commands
 #### Fork & fulll request (read access only? no problem)
 
 #### Fetch (git fetch + git merge = git pull)
-> git remote add coworker_repo ...git
+> get fetch --all - fetch all from repo e.g. origin/...
 
-> git fetch coworker_repo coworkers/feature_branch - fetch and download the contents
+> git checkout <branch-name-from-fetch> - you can start and test out the branch code
 
-> git checkout coworkers/feature_branch - checkout downloaded remote branch
+> git checkout develop
 
-> git checkout -b local_feature_branch - create branch from the 'detached HEAD'
+> git merge <branch-name-from-fetch>
 
 
 ###### Pull and push existing repo
