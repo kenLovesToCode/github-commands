@@ -56,6 +56,25 @@ My personal guide in github commands
 
 > git push -u origin main
 
+
+
+#### GitFlow merge and branching
+> git flow init - initialize and create branch
+
+> git flow feature start feature_branch - create feature branch from develop branch
+
+> git flow feature finish feature_branch - finish feature branch by checkout develop and merge it
+
+> git flow release start 0.1.0 - checkout develop branch and create copy to release/0.1.0 branch
+
+> git flow release finish '0.1.0' - merge release branch to main
+
+> git flow hotfix start hotfix_branch - checkout hotfix_branch from develop branch
+
+> git flow hotfix finish hotfix_branch - merge hotfix to main and develop then delete hotfix branch
+
+
+
 ###### Move branch to branch
 > git branch -m master main
 
