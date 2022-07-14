@@ -41,6 +41,15 @@ My personal guide in github commands
 
 #### Fork & fulll request (read access only? no problem)
 
+#### Fetch
+> git remote add coworker_repo ...git
+
+> git fetch coworker_repo coworkers/feature_branch - fetch and download the contents
+
+> git checkout coworkers/feature_branch - checkout downloaded remote branch
+
+> git checkout -b local_feature_branch - create branch from the 'detached HEAD'
+
 
 ###### Pull and push existing repo
 > git remote add origin https://github.com/kenLovesToCode/github-commands
@@ -95,6 +104,8 @@ My personal guide in github commands
 > git log #to list all the available commit hashes
 
 > git checkout <the commit hash only>
+  
+###### readable log `git log --oneline --graph --color --all --decorate`
   
 ###### show all branch remote and local `git remote -a`
   
