@@ -13,7 +13,7 @@ $ notepad ~/.ssh/config
 $ ssh-add ~/.ssh/id_ed25519
 
 ##### Test SSH
-> ssh -T git@ssh.dev.azure.com - for azure
+> ssh -T git@jairo@vs-ssh.visualstudio.com - for azure
 
 > ssh -T git@github.com - for github
 
