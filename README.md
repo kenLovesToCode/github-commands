@@ -19,7 +19,6 @@ $ ssh-add ~/.ssh/id_ed25519
 
 
 
-
 #### Branching and feature branch
 > git checkout main
 
@@ -58,7 +57,7 @@ $ ssh-add ~/.ssh/id_ed25519
 > git branch -d hotfix_branch - delete once merged
 
 
-#### Fork & fulll request (read access only? no problem)
+#### Fork & pull request (read access only? no problem)
 
 #### Fetch (git fetch + git merge = git pull)
 > get fetch --all - fetch all from repo e.g. origin/...
@@ -124,6 +123,10 @@ $ ssh-add ~/.ssh/id_ed25519
 
 > git checkout <the commit hash only>
   
+###### delete a file `git rm Test/deleteme.txt`
+
+###### renaming a file `git mv oldtext.txt newtext.txt`
+
 ###### readable log `git log --oneline --graph --color --all --decorate`
   
 ###### show all branch remote and local `git remote -a`
