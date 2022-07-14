@@ -39,6 +39,7 @@ My personal guide in github commands
 > git branch -d hotfix_branch - delete once merged
 
 
+#### Fork & fulll request (read access only? no problem)
 
 
 ###### Pull and push existing repo
