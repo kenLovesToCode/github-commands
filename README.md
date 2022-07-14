@@ -1,6 +1,46 @@
 # github-commands
 My personal guide in github commands
 
+#### Branching and feature branch
+> git checkout main
+
+> git checkout -b develop
+
+> git checkout -b feature_branch - work always on feature_branch
+
+> git checkout develop
+
+> git merge feature_branch - merge once done
+
+> git checkout -b release/0.1.1 - for releasing feature branch
+
+> git checkout main
+
+> git merge release/0.1.0 - for releasing and merge directly to main
+
+> git checkout main
+
+> git merge feature_branch - also merge to main if needed (not always allowed)
+
+
+#### Hotfix branch (For maintenance - direct to main)
+> git checkout main
+
+> git checkout -b hotfix_branch
+
+> git checkout main
+
+> git merge hotfix_branch
+
+> git checkout develop
+
+> git merge hotfix_branch
+
+> git branch -d hotfix_branch - delete once merged
+
+
+
+
 ###### Pull and push existing repo
 > git remote add origin https://github.com/kenLovesToCode/github-commands
 
