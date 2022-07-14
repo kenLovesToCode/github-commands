@@ -41,7 +41,7 @@ My personal guide in github commands
 
 #### Fork & fulll request (read access only? no problem)
 
-#### Fetch
+#### Fetch (git fetch + git merge = git pull)
 > git remote add coworker_repo ...git
 
 > git fetch coworker_repo coworkers/feature_branch - fetch and download the contents
