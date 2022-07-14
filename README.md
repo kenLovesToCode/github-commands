@@ -1,6 +1,25 @@
 # github-commands
 My personal guide in github commands
 
+#### SSH Keys
+$ ssh-keygen -t ed25519 -C kltc@gmail.com - generate ssh
+$ eval "$(ssh-agent -s)" - for linux to start ssh agent
+$ ~/.ssh/config - show if private key existed
+$ touch ~/.ssh/config
+$ notepad ~/.ssh/config
+  - Host * 
+     AddKeysToAgent yes
+     IdentityFile ~/.ssh/id_ed25519
+$ ssh-add ~/.ssh/id_ed25519
+
+##### Test SSH
+> ssh -T git@ssh.dev.azure.com - for azure
+
+> ssh -T git@github.com - for github
+
+
+
+
 #### Branching and feature branch
 > git checkout main
 
