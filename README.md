@@ -109,12 +109,24 @@ $ ssh-add ~/.ssh/id_ed25519
 
 ###### Move branch to branch
 > git branch -m master main
+  
 
-###### git stash 
-for initial work `git stack save 'any name'` | `git stash list` | `git stash apply stash@{0}` 
-to apply `git stash pop` 
-get and delete the first stash `git stash drop stash@{0}` 
-to drop and `git stash clear` to drop all
+###### git stash (temporary branches that needs comparison from time to time | temporary commits)
+#####Can also be applied on different branches, can move the commit to different branches
+`git stash save 'work on add function'` - put staged for commit to stash area
+   
+show stashes `git stash list` //show stash@{0}
+
+`git stash apply stash@{0}` - ready to commit | code restored
+  
+`git stash pop` - move to commit and drop the stash from top
+  
+`git stash drop 'stash@{0}'` - to remove a stash
+  
+`git stash clear` - remove all stashes 
+  
+  
+
 
 ###### remove cached and add again
 > git rm -rf --cached folderName
@@ -130,6 +142,11 @@ to drop and `git stash clear` to drop all
 > git log #to list all the available commit hashes
 
 > git checkout <the commit hash only>
+  
+
+###### to show difference between branches `git diff`
+  
+###### remove all changes not staged for commit `git checkout -- .`
   
 ###### delete a file `git rm Test/deleteme.txt`
 
