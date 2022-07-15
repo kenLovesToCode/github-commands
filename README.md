@@ -67,6 +67,10 @@ $ ssh-add ~/.ssh/id_ed25519
 > git checkout develop
 
 > git merge <branch-name-from-fetch>
+  
+> git merge --abort - cancel merge
+  
+> git add . & git commit after merged
 
 
 ###### Pull and push existing repo
