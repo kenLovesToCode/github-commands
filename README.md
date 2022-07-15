@@ -110,7 +110,11 @@ $ ssh-add ~/.ssh/id_ed25519
 ###### Move branch to branch
 > git branch -m master main
 
-###### git stash for initial work `git stack save 'any name'` | `git stash list` | `git stash apply stash@{0}` to apply `git stash pop` get and delete the first stash `git stash drop stash@{0}` to drop and `git stash clear` to drop all
+###### git stash 
+for initial work `git stack save 'any name'` | `git stash list` | `git stash apply stash@{0}` 
+to apply `git stash pop` 
+get and delete the first stash `git stash drop stash@{0}` 
+to drop and `git stash clear` to drop all
 
 ###### remove cached and add again
 > git rm -rf --cached folderName
