@@ -11,9 +11,11 @@ My personal guide in github commands
 > touch ~/.ssh/config
 
 > notepad ~/.ssh/config
-  - Host * 
-     AddKeysToAgent yes
-     IdentityFile ~/.ssh/id_ed25519
+
+    Host *
+          AddKeysToAgent yes
+     
+          IdentityFile ~/.ssh/id_ed25519
      
 > ssh-add ~/.ssh/id_ed25519
 
