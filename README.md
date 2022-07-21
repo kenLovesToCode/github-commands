@@ -153,6 +153,10 @@ show stashes `git stash list` //show stash@{0}
 > git checkout <the commit hash only>
   
 
+###### to show git config `cd to-project-dir` and `cat .git/config`
+
+###### to change remote url `git remote set-url origin copy-the-ssh-to-change-ssh-link`
+
 ###### to show difference between branches `git diff`
   
 ###### remove all changes not staged for commit `git checkout -- .`
