@@ -190,6 +190,8 @@ show stashes `git stash list` //show stash@{0}
 ###### retrieve deleted commit `git reflog` | `git branch new_branch` | `git checkout main`
   
 ###### go back to commit without deleting commit pulled by others `git revert commit_hash`
+    
+###### delete remote `git remote remove origin`
  
 GIT RESET
 ###### go back to commit and keep files staging `git reset --soft commit_hash`
