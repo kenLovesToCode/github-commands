@@ -135,6 +135,7 @@ show stashes `git stash list` //show stash@{0}
 `git stash clear` - remove all stashes 
 
 `gitk --all $( git fsck --no-reflog | awk '/dangling commit/ {print $3}' )` show stash including the deleted one
+and apply using `git stash apply <commit-hash>`
   
   
 
