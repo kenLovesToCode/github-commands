@@ -209,3 +209,5 @@ GIT REFLOG
 ###### show all git commits including the deleted `git reflog`
 
 ###### show remote info `git remote show remote_name`
+
+###### show commits including the deleted with UI `git reflog |  awk '{ print $1 }' | xargs gitk`
