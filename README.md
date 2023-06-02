@@ -39,7 +39,7 @@ My personal guide in github commands
 
 > git merge feature_branch - merge once done
 
-> git checkout -b release/0.1.1 - for releasing feature branch
+> git checkout -b release/0.1.1 - for release feature branch
 
 > git checkout main
 
