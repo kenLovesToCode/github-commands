@@ -50,20 +50,6 @@ My personal guide in github commands
 > git merge feature_branch - also merge to main if needed (not always allowed)
 
 
-#### Hotfix branch (For maintenance - direct to main)
-> git checkout main
-
-> git checkout -b hotfix_branch
-
-> git checkout main
-
-> git merge hotfix_branch
-
-> git checkout develop
-
-> git merge hotfix_branch
-
-> git branch -d hotfix_branch - delete once merged
 
 
 #### Fork & pull request (read access only? no problem)
